@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.tvpovazie"
+version="1.0.0"
+name="tvpovazie.sk"
+provider-name="VincoNafta">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="script.module.beautifulsoup4" version="4.6.2"/>
+    <import addon="script.module.urllib3" version="1.26.9"/>
+  </requires>
+	<extension point="xbmc.python.pluginsource" library="main.py">
+		<provides>video</provides>
+	</extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">tvpovazie.sk</summary>
+    <summary lang="cs">tvpovazie.sk</summary>
+    <summary lang="sk">tvpovazie.sk</summary>
+    <description lang="en">Watch online archive from tvpovazie.sk</description>
+    <description lang="cs">Sledujte online archiv ze serveru tvpovazie.sk</description>
+    <description lang="sk">Sledujte online archív zo serveru tvpovazie.sk</description>
+    <platform>all</platform>
+  <assets>
+    <icon>icon.png</icon>
+  </assets>
+</extension>
+</addon>
